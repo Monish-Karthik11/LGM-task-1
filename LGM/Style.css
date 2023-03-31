@@ -1,0 +1,50 @@
+body {
+  background-image: url("1.jpg");
+  background-repeat:no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+}
+
+.list {
+  margin: 50px auto;
+  width: 50%;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.list input[type="text"] {
+  width: 70%;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  margin-right: 10px;
+}
+
+.list button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 25px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.list ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.list li {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.list li:last-child {
+  border-bottom: none;
+}
